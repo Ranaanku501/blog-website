@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+
+body{
+margin:0px;
+padding: 0px;
+font-family: 'Lato', sans-serif !important;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Lato', sans-serif;
+}
+p{
+	font-family: 'Lato', sans-serif;
+}
+a{
+	font-family: 'Lato', sans-serif;
+	color: #333;
+}
+.right-text p {
+    margin: 0 !important;
+    padding: 27px 0px;
+}
+.left-section h2 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin: 20px 0;
+    font-size: 26px;
+    line-height: 41px;
+}
+.crudin-sec h2 {
+    margin-top: 0;
+    font-size: 22px;
+    color: #777;
+}
+.menu-sec.sticky {
+    border-bottom: 1px solid #c5b3b3;
+}
+nav.navbar.navbar-default {
+    background: transparent;
+    border: transparent;
+}
+section.top-logo-sec {
+    margin-bottom: 0px;
+}
+nav.navbar.navbar-default .container-fluid {
+    padding: 0;
+}
+ul.nav.navbar-nav a {
+    background: transparent !important;
+    font-size: 20px;
+    color: #333;
+}
+ul.nav.navbar-nav li{
+	    padding-left: 60px;
+}
+ul.nav.navbar-nav li:first-child{
+	    padding-left: 0px;
+}
+li.active a {
+    padding-left: 0 !important;
+    color: #333 !important;
+}
+section.menu-sec {
+    background: #fdf7f7;
+    color: #f4f4f4;
+        z-index: 9999;
+    }
+section.crudin-section {
+    margin-bottom: 10px;
+    padding-left: 0px;
+}
+nav.navbar.navbar-default {
+    margin-bottom: 0;
+}
+.col-md-6.left-section {
+    padding-left: 0;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+.crudin-sec h2 span {
+    color: #333;
+}
+.main-section .col-md-3 {
+    padding-left: 0;
+    box-shadow: 4px 0px 8px -5px #e2d4d4;
+}
+.all-content p {
+    font-size: 16px;
+    padding: 12px 0 0px;
+}
+.main-section .col-md-3 {
+    padding-left: 0;
+    box-shadow: 4px 0px 8px -5px #e2d4d4;
+    height: 100vh;
+    max-height: 600px;
+    min-height: 600px;
+    overflow: auto;
+}
+.content p {
+    font-size: 16px;
+    padding-top: 10px;
+}
+.content {
+    padding: 0 20px;
+}
